@@ -30,6 +30,9 @@ brew cask install firefox
 
 brew cask install slack
 
+# Install Krypt.co
+brew install kryptco/tap/kr
+
 # Text Editors
 
 # brew cask install macdown
