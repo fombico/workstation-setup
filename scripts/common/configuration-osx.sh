@@ -30,6 +30,7 @@ chmod a+rx,go-w /usr/local/bin/dockutil
 dockutil --list | awk -F\t '{print "dockutil --remove \""$1"\" --no-restart"}' | sh
 dockutil --add /Applications/Google\ Chrome.app --no-restart
 dockutil --add /Applications/iTerm.app
+dockutil --add /Applications/Sublime\ Text.app
 
  
  

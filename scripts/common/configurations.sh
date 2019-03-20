@@ -8,6 +8,9 @@ open /Applications/ShiftIt.app
 echo "Configuring FlyCut"
 open /Applications/Flycut.app
 
+echo "Configuring sublime alias"
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
 # echo
 # echo "Installing vim configuration"
 # pushd ~/
