@@ -8,13 +8,13 @@ open /Applications/ShiftIt.app
 echo "Configuring FlyCut"
 open /Applications/Flycut.app
 
-echo
-echo "Installing vim configuration"
-pushd ~/
-if [ ! -d ~/.vim ]; then
-    git clone https://github.com/pivotal/vim-config.git ~/.vim
-    ~/.vim/bin/install
-fi
-popd
+# echo
+# echo "Installing vim configuration"
+# pushd ~/
+# if [ ! -d ~/.vim ]; then
+#     git clone https://github.com/pivotal/vim-config.git ~/.vim
+#     ~/.vim/bin/install
+# fi
+# popd
 
 
