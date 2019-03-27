@@ -42,6 +42,8 @@ source ${MY_DIR}/scripts/common/applications-common.sh
 source ${MY_DIR}/scripts/common/configuration-osx.sh
 source ${MY_DIR}/scripts/common/configurations.sh
 
+source ${MY_DIR}/scripts/common/configuration-zsh.sh
+
 # For each command line argument, try executing the corresponding script in opt-in/
 for var in "$@"
 do
